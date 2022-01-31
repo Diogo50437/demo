@@ -29,6 +29,10 @@
       "id": 2,
       "fabricant": "DELOIT",
       "fabricantId": 3
+    },
+    {
+      "deviceName": "aa",
+      "id": 3
     }
   ]
 }
