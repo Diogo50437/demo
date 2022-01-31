@@ -1,14 +1,34 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "fabricants": [
+    {
+      "fabricantName": "ATOS",
+      "id": 1
+    },
+    {
+      "fabricantName": "DELOIT",
+      "id": 2
+    },
+    {
+      "fabricantName": "VODAFONE",
+      "id": 3
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "devices": [
+    {
+      "deviceName": "testDevice1",
+      "description": "SEL Device",
+      "imei": 1111,
+      "id": 1,
+      "fabricant": "ATOS",
+      "fabricantId": 1
+    },
+    {
+      "deviceName": "testDevice2",
+      "description": "SEL Device",
+      "imei": 3333,
+      "id": 2,
+      "fabricant": "DELOIT",
+      "fabricantId": 3
+    }
+  ]
 }
